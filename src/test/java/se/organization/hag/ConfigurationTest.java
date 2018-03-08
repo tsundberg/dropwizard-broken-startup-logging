@@ -19,6 +19,6 @@ public class ConfigurationTest {
     public void should_get_template() {
         Configuration configuration = application.getConfiguration();
 
-        assertThat(configuration.getTemplate()).isEqualTo("Hello, %s!");
+        assertThat(configuration.getTemplate()).isEqualTo("Thingy, %s!");
     }
 }

@@ -1,14 +1,8 @@
-# An example showing a strange logging
+# An example showing Java to json transformation
 
-When starting the application, the configured endpoints are logged.
+A flat Java object is easy to transform to json.
 
-It is strange to see the a `GET` starting with `//` when it should be `/`
-
-The current startup shows this:
-
-```
-    GET     //hello-world (se.organization.hag.greeting.GreetingResource)
-```
+A java object that has a list of similar object is also easy to transform. Even when the list has entries.
 
 ## Build
 

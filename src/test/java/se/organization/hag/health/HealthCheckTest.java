@@ -10,7 +10,7 @@ public class HealthCheckTest {
 
     @Test
     public void should_be_healthy() {
-        HealthCheck healthCheck = new HealthCheck("Hello, %s!");
+        HealthCheck healthCheck = new HealthCheck("Thingy, %s!");
 
         Result result = healthCheck.check();
 
@@ -19,7 +19,7 @@ public class HealthCheckTest {
 
     @Test
     public void should_be_unhealthy() {
-        HealthCheck healthCheck = new HealthCheck("Hello!");
+        HealthCheck healthCheck = new HealthCheck("Thingy!");
 
         Result result = healthCheck.check();
 

@@ -1,2 +1,2 @@
-template: Hello, %s!
+template: Thingy, %s!
 defaultName: World

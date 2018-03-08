@@ -5,7 +5,7 @@ import org.hibernate.validator.constraints.NotEmpty;
 
 public class Configuration extends io.dropwizard.Configuration {
     @NotEmpty
-    private String template = "Hello, %s!";
+    private String template = "Thingy, %s!";
 
     @NotEmpty
     private String defaultName = "Stranger";

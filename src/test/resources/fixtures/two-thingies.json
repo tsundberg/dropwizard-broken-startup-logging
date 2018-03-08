@@ -1,0 +1,11 @@
+{
+  "id": 17,
+  "content": "parent",
+  "thingies": [
+    {
+      "id": 17,
+      "content": "child",
+      "thingies": []
+    }
+  ]
+}

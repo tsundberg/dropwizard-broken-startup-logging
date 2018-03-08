@@ -25,7 +25,7 @@ public class Main extends Application<Configuration> {
         String template = configuration.getTemplate();
         String defaultName = configuration.getDefaultName();
 
-        GreetingResource helloWorld = new GreetingResource(template, defaultName);
+        GreetingResource helloWorld = new GreetingResource();
         environment.jersey().register(helloWorld);
 
         HealthCheck healthCheck = new HealthCheck(template);
